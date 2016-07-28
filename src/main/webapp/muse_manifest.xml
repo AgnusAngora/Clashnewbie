@@ -1,0 +1,75 @@
+<manifest alg="2" build="2015.1.0.342" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="clashnewbie.org" resolutions="1x" timestamp="1469635557188">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="master_pagina-sin-conectar.css" crc="4082482854" ref="quienes-somos:guias:videos:wiki:index:registro"/>
+    <file name="master_pagina-con-conexion.css" crc="315829055" ref="conexion-bot:clashnewbie:quienes-somos-conectado"/>
+    <file name="conexion-bot.css" crc="499895812" ref="conexion-bot"/>
+    <file name="clashnewbie.css" crc="4181880356" ref="clashnewbie"/>
+    <file name="quienes-somos.css" crc="4130341872" ref="quienes-somos"/>
+    <file name="guias.css" crc="3953869768" ref="guias"/>
+    <file name="videos.css" crc="278550274" ref="videos"/>
+    <file name="wiki.css" crc="419308106" ref="wiki"/>
+    <file name="quienes-somos-conectado.css" crc="12056730" ref="quienes-somos-conectado"/>
+    <file name="index.css" crc="518190813" ref="index"/>
+    <file name="registro.css" crc="192758375" ref="registro"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="409338010" ref="index:registro:conexion-bot:quienes-somos:guias:wiki:videos:clashnewbie:quienes-somos-conectado"/>
+    <file name="museutils.js" crc="4190794036" ref="index:registro:conexion-bot:quienes-somos:guias:wiki:videos:clashnewbie:quienes-somos-conectado"/>
+    <file name="whatinput.js" crc="84559013" ref="index:registro:conexion-bot:quienes-somos:guias:wiki:videos:clashnewbie:quienes-somos-conectado"/>
+    <file name="pie.js" crc="3827607177" ref="index:conexion-bot:clashnewbie"/>
+    <file name="jquery.musemenu.js" crc="3866264083" ref="index:registro:conexion-bot:quienes-somos:guias:wiki:videos:clashnewbie:quienes-somos-conectado"/>
+    <file name="webpro.js" crc="488283310" ref="index:registro:clashnewbie"/>
+    <file name="musewpslideshow.js" crc="248860441" ref="index:clashnewbie"/>
+    <file name="jquery.museoverlay.js" crc="3898476799" ref="index:clashnewbie"/>
+    <file name="touchswipe.js" crc="4191887251" ref="index:clashnewbie"/>
+    <file name="jquery.watch.js" crc="349565855" ref="index:registro:conexion-bot:quienes-somos:guias:wiki:videos:clashnewbie:quienes-somos-conectado"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:registro:conexion-bot:quienes-somos:guias:wiki:videos:clashnewbie:quienes-somos-conectado"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3792042506" ref="registro"/>
+    <file name="form_check.php" crc="3835315271" ref="registro"/>
+    <file name="form_process.php" crc="4134508276" ref="registro"/>
+    <file name="recaptchalib.php" crc="385583985" ref="registro"/>
+    <file name="form-u1121.php" crc="4235933529" ref="registro"/>
+  </folder>
+  <folder name="images">
+    <file name="barramenu-u261.png" crc="127689834" ref="index:registro:quienes-somos:guias:wiki:videos"/>
+    <file name="u346-4.png" crc="4078478784" ref="index:registro:quienes-somos:guias:wiki:videos"/>
+    <file name="u339-4.png" crc="3948244813" ref="index:registro:quienes-somos:guias:wiki:videos"/>
+    <file name="u384-4.png" crc="122150678" ref="index:registro:quienes-somos:guias:wiki:videos"/>
+    <file name="blank.gif" crc="4208392903" ref="registro"/>
+    <file name="u1122-fs.png" crc="4015349558" ref="registro"/>
+    <file name="u1124-fse.png" crc="352922609" ref="registro"/>
+    <file name="u1123-fss.png" crc="493473751" ref="registro"/>
+    <file name="u1125-17.png" crc="259178419" ref="registro"/>
+    <file name="u1125-17-r.png" crc="533132297" ref="registro"/>
+    <file name="u1125-17-m.png" crc="114060081" ref="registro"/>
+    <file name="u1125-17-fs.png" crc="487176922" ref="registro"/>
+    <file name="recaptchamodeaudio.png" crc="321387380" ref="registro"/>
+    <file name="recaptchamodeaudiorollover.jpg" crc="4012741543" ref="registro"/>
+    <file name="recaptchamodeaudiomousedown.jpg" crc="169475968" ref="registro"/>
+    <file name="recaptchamodeimage.png" crc="484269603" ref="registro"/>
+    <file name="recaptchamodeimagerollover.jpg" crc="81540066" ref="registro"/>
+    <file name="recaptchamodeimagemousedown.jpg" crc="303121703" ref="registro"/>
+    <file name="recaptcharefresh.png" crc="47393460" ref="registro"/>
+    <file name="recaptcharefreshrollover.jpg" crc="155564821" ref="registro"/>
+    <file name="recaptcharefreshmousedown.jpg" crc="4225227046" ref="registro"/>
+    <file name="recaptchahelp.png" crc="131403934" ref="registro"/>
+    <file name="recaptchahelprollover.jpg" crc="3948161619" ref="registro"/>
+    <file name="recaptchahelpmousedown.jpg" crc="47105717" ref="registro"/>
+    <file name="barramenu-u482.png" crc="127689834" ref="conexion-bot:clashnewbie:quienes-somos-conectado"/>
+    <file name="u500-4.png" crc="4078478784" ref="conexion-bot:clashnewbie:quienes-somos-conectado"/>
+    <file name="u508-4.png" crc="3948244813" ref="conexion-bot:clashnewbie:quienes-somos-conectado"/>
+    <file name="u492-4.png" crc="122150678" ref="conexion-bot:clashnewbie:quienes-somos-conectado"/>
+    <file name="u731-19.png" crc="161923763" ref="quienes-somos"/>
+    <file name="u946-19.png" crc="161923763" ref="quienes-somos-conectado"/>
+  </folder>
+  <file name="index.html" crc="4027176327" seo="true" mt="1469635086189" redirect="true"/>
+  <file name="registro.html" crc="4221078193" seo="true" mt="1469635555106" redirect="true"/>
+  <file name="conexion-bot.html" crc="3812060400" seo="true" mt="1469588037088" redirect="true"/>
+  <file name="quienes-somos.html" crc="4075009280" seo="true" mt="1469588037022" redirect="true"/>
+  <file name="guias.html" crc="4209601899" seo="true" mt="1469588037022" redirect="true"/>
+  <file name="wiki.html" crc="3916891921" seo="true" mt="1469588037022" redirect="true"/>
+  <file name="videos.html" crc="11268824" seo="true" mt="1469588037022" redirect="true"/>
+  <file name="clashnewbie.html" crc="4226981320" seo="true" mt="1469635078623" redirect="true"/>
+  <file name="quienes-somos-conectado.html" crc="292392672" seo="true" mt="1469588037094" redirect="true"/>
+</manifest>

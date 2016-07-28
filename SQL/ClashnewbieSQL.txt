@@ -1,0 +1,70 @@
+/*
+SQLyog Ultimate v11.11 (64 bit)
+MySQL - 5.6.26 : Database - clashnewbie
+*********************************************************************
+*/
+
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`clashnewbie` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `clashnewbie`;
+
+/*Table structure for table `usuario` */
+
+DROP TABLE IF EXISTS `usuario`;
+
+CREATE TABLE `usuario` (
+  `id_usuario` int(11) NOT NULL,
+  `correo_usuario` varchar(50) DEFAULT NULL,
+  `pass_usuario` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`correo_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=7;
+/*Data for the table `usuario` */
+
+insert  into `usuario`(`id_usuario`,`correo_usuario`,`pass_usuario`) values (1,'123@gmail',123);
+
+/*Table structure for table `jugador` */
+
+DROP TABLE IF EXISTS `jugador`;
+
+CREATE TABLE `jugador` (
+  `id_jugador` int(11) NOT NULL AUTO_INCREMENT,
+  `correo_usuario` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_jugador`),
+  FOREIGN KEY (`correo_usuario`) REFERENCES usuario(`correo_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=7;
+/*Data for the table `jugador` */
+
+insert  into `jugador`(`id_jugador`,`correo_usuario`) values (1,'123@gmail');
+
+/*Table structure for table `clan` */
+
+DROP TABLE IF EXISTS `clan`;
+
+CREATE TABLE `clan` (
+  `id_clan` int(11) NOT NULL AUTO_INCREMENT,
+  `correo_usuario` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_clan`),
+  FOREIGN KEY (`correo_usuario`) REFERENCES usuario(`correo_usuario`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=7;
+/*Data for the table `clan` */
+
+insert  into `clan`(`id_clan`,`correo_usuario`) values (1,'123@gmail');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+
+
+
+

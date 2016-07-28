@@ -1,0 +1,201 @@
+.version.guias /* version checker */
+{
+	color: #0000EB;
+	background-color: #AB43C8;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 204.99250000000006px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 295.00749999999994px;
+	width: 100%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u261
+{
+	z-index: 2;
+	position: relative;
+	width: 95.84%;
+	margin-left: 2.09%;
+}
+
+#pmenuu335
+{
+	width: 95.84%;
+	margin-left: 2.09%;
+}
+
+#menuu335
+{
+	z-index: 4;
+	position: relative;
+	margin-right: -10000px;
+	width: 48.48%;
+}
+
+#u343
+{
+	min-height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	width: 32.96%;
+}
+
+#u344
+{
+	padding-bottom: 3px;
+	position: relative;
+	width: 100%;
+}
+
+#u344:hover
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u344:active
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u336
+{
+	min-height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	width: 32.96%;
+	left: 33.41%;
+}
+
+#u337
+{
+	padding-bottom: 3px;
+	position: relative;
+	width: 100%;
+}
+
+#u344.MuseMenuActive,#u337:hover
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u337:active
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u380
+{
+	min-height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	width: 33.19%;
+	left: 66.82%;
+}
+
+#u383
+{
+	padding-bottom: 3px;
+	position: relative;
+	width: 100%;
+}
+
+#u337.MuseMenuActive,#u383:hover
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u383:active
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u383.MuseMenuActive
+{
+	min-height: 0px;
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+}
+
+#u346-4_clip,#u339-4_clip,#u384-4_clip
+{
+	height: 17px;
+	width: 100%;
+}
+
+#u346-4,#u339-4,#u384-4
+{
+	position: relative;
+	margin-right: -10000px;
+	top: 1px;
+	width: 100%;
+}
+
+#u468
+{
+	z-index: 24;
+	min-height: 18px;
+	position: relative;
+	margin-right: -10000px;
+	width: 9.14%;
+	left: 48.48%;
+}
+
+#u460
+{
+	z-index: 23;
+	min-height: 20px;
+	position: relative;
+	margin-right: -10000px;
+	width: 42.4%;
+	left: 57.61%;
+}
+
+#u736-4
+{
+	z-index: 25;
+	min-height: 84px;
+	background-color: transparent;
+	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+	margin-top: 13px;
+	position: relative;
+	width: 38.86%;
+	margin-left: 3.34%;
+}
+
+#muse_css_mq,.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+
+#u346-4_img,#u339-4_img,#u384-4_img
+{
+	width: 100%;
+}
+

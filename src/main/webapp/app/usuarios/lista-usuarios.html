@@ -1,0 +1,70 @@
+<div class="container-fluid">
+     <!-- Page Header -->
+     <div class="page-header page-header-block">
+         <div class="page-header-section">
+             <h4 class="title semibold">Lista de Usuarios</h4>
+         </div>
+         <div class="page-header-section">
+             <!-- Toolbar -->
+             <div class="toolbar">
+                 <ol class="breadcrumb breadcrumb-transparent nm">
+                     <li><a href="#">Home</a></li>
+                     <li class="active">Usuarios</li>
+                 </ol>
+             </div>
+             <!--/ Toolbar -->
+         </div>
+     </div>
+     
+     <div class="row" >
+					
+					<div class="col-md-12" >
+					
+						<div class="panel panel-default" >
+							
+							<div class="panel-heading">
+                                <h3 class="panel-title">Lista de Usuarios</h3>
+                                
+                                <div class="panel-toolbar text-right">
+                                    <div class="option">
+                                        <button class="btn" ng-click="cargarUsuarios();" >
+                                        		<i class="reload"></i>
+                                        	</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="table-responsive panel-collapse pull out">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre Usuario</th>
+                                            <th>Passsword</th>
+                                            <th>Intentos Fallidos</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbl-usuarios" >
+
+										<tr ng-repeat="u in usuarios" >
+											<td>{{u.nombreUsuario}}</td>
+											<td>{{u.password}}</td>
+											<td>{{u.intentosFallidos}}</td>
+										</tr>
+
+
+									</tbody>
+                                </table>
+                            </div>
+                            
+                            <div id="loading" style="text-align:center;margin:10px;" ng-show="flagLoading" >
+                            		Cargando datos ... <br/>
+                            		<img src="../image/loading/spinner.gif">
+                            </div>
+                            
+						</div>
+					</div>
+				</div>
+     
+     
+ </div>
